@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;"><mark>Student Data Collection Form</mark></h1>
+        <div style="text-align: center;"><b>Please fill all the details carefully.</b> <i>All fields are mandatory.</i> <u>Make sure information is correct.</u></div>
+        <hr>
+    </header>
+
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your full name">
+
+        <br>
+        <br>
+        <label for="mail">Email:</label>
+        <input type="text" name="mail" id="mail" placeholder="Enter your email">
+
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter password">
+
+        <br>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter your age">
+
+        <br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+        <br>
+        <br>
+
+        <label for="upload">Upload Photo:</label>
+        <input type="file" id="upload" name="upload" accept="image/*">
+        <br>
+        <br>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend><b>Academic Information</b></legend>
+
+        <label for="branch">Branch:</label>
+        
+        <input type="radio" name="branch" id="btech">
+        <label for="B.tech">B.tech</label>
+        
+        <input type="radio" name="branch" id="bca">
+        <label for="BCA">BCA</label>
+        <br>
+        <br>
+
+        <label for="skills">Skills:</label>
+        
+        <input type="checkbox" name="skills" id="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" name="css" id="css">
+        <label for="css">CSS</label>
+      
+        <input type="checkbox" name="js" id="js">
+        <label for="js">JavaScript</label>
+
+        <input type="checkbox" name="py" id="py">
+        <label for="py">Python</label>
+        <br>
+        <br>
+        <label for="year">Select Year:</label>
+        <select name="year" id="year">
+            <option value="">Select Year</option>
+            <option value="1st">1st Year</option>
+            <option value="2nd">2nd Year</option>
+            <option value="3rd">3rd Year</option>
+            <option value="4th">4th Year</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="portfolio">Portfolio URL:</label>
+        <input type="url" id="portfolio" name="portfolio" placeholder="https://example.com">
+
+        <br><br>
+        <label for="stime">Study Time:</label>
+        <input type="time" name="stime">
+
+        <br><br>
+        <label for="week">Preferred Week:</label>
+        <input type="week" name="week" id="week">
+
+        <br><br>
+        <label for="month">Preferred Month:</label>
+        <input type="month">
+
+        <br><br>
+        <label for="dt">Date & Time of Admission:</label>
+        <input type="datetime-local" id="dt" name="dt">
+        <br>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><b>Feedback Section</b></legend>
+
+        <label for="rate">Rate Your HTML Knowledge (0-10):</label>
+        <input type="range" name="rate" id="rate">
+
+        <br><br>
+        <label for="feedback">Write Your Feedback:</label>
+        <br>
+        <textarea name="feedback" id="feedback" placeholder="Write your feedback here" style="width: 300px; height: 100px;"></textarea>
+        <p><mark>Note:</mark> Range is between 0 to 10.</p>
+    </fieldset>
+
+    <br><br>
+    <div style="text-align: center;">
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+    </div>
+
+    <hr>
+
+    <div style="text-align: center;"><b>Thank you for registering!</b><i> We will contact you soon.</i></div>
+</body>
+</html>
