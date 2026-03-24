@@ -1,0 +1,82 @@
+body {
+    background-color: #b8b8b8;
+    color: #222;
+}
+
+.top {
+    border: 2px solid #bcdffb;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #f4fff7;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    border: 2px solid #bcdffb;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav :hover {
+    background-color: #dff5ff;
+}
+
+.intro {
+    border: 2px solid #bcdffb;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.intro:hover {
+    background-color: rgb(134, 156, 190);
+}
+
+.imp {
+    border: 2px solid #bcdffb;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.imp:hover, a:hover{ 
+    background-color: rgb(134, 156, 190);
+}
+
+.bottom {
+    border: 2px solid #bcdffb;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.alldiv{
+    border: 2px solid #bcdffb;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+a{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.alldiv:hover{
+    background-color: #bcdffb;
+}
