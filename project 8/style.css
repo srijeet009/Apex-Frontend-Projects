@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.top{
+    /* margin: 0; */
+    padding: 10px;
+    background-color: rgb(15, 15, 103);
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(42, 42, 118);
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover{
+    color: rgb(24, 167, 160);
+}
+
+#solarsystem , #galaxy , #blackhole , #nebula{
+    margin-top: 50px;
+}
+
+.box{
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+    width: 1000px;
+    text-align: center;
+    background-color: rgb(15, 15, 103);
+}
+
+footer{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(15, 15, 103);
+}
