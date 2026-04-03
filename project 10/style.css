@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+}
+nav{
+    /* margin: 0;
+    padding: 0; */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+#hero{
+    color: white;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1502877338535-766e1452684a");
+    padding: 100px 20px;
+    background-size: cover;
+}
+
+#topbutton{
+    /* margin-top: 10px; */
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(220, 144, 38);
+
+}
+
+#topbutton:hover{
+    background-color: red;
+}
+
+#content{
+    text-align: center;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 1px solid grey;
+    box-shadow: 0 4px 10px grey;
+    width: 280px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+}
+
+.card:hover{
+    box-shadow: 0 8px 20px black;
+}
+
+.cardbutton{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.cardbutton:hover{
+    background-color: rgb(220, 144, 38);
+}
