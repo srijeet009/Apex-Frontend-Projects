@@ -1,0 +1,123 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* box-sizing: border-box; */
+    /* margin: 100; */
+
+}
+/* html{
+    margin: 100%;
+} */
+
+nav{
+    display: flex;
+    color: white;
+    padding: 30px;
+    background-color: rgb(24, 24, 24);
+}
+
+#name{
+    font-size: x-large;
+}
+
+.link{
+    margin-left: auto;
+    gap: 20px;}
+
+.link a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: aqua;
+}
+
+#img{
+    text-align: right;
+    width: 300px;
+    height: 400px;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    /* text-align: end; */
+    margin-left: auto;
+    margin-top: -240px;
+    margin-right: 120px;
+}
+
+#img:hover{
+    background-image:url(https://i.pinimg.com/736x/6a/18/2e/6a182e414a10db875aa29ee65d58e222.jpg) ;
+}
+
+
+
+#hero{
+    margin-top: 100px;
+    margin-left: 50px;
+    /* display: block; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 50px; */
+    padding: 60px;
+    /* display: flex; */
+}
+
+#hello{
+    font-size: 50px;
+    /* width: 5000000px; */
+}
+
+#explorebtn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(11, 169, 169);
+    padding: 10px;
+    box-shadow: 2px 4px 4px grey;
+}
+
+#logo{
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    display: block;
+    margin-left: auto;
+    margin-top: -240px;
+    margin-right: 120px;
+}
+
+#education{
+    text-align: center;
+}
+
+.box{
+    /* text-align: center; */
+    width: 300px;
+    padding: 5px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    /* border: 2px solid grey; */
+    margin: auto;
+}
+
+
+#projects{
+    /* margin-top: 100px; */
+    text-align: center;
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    margin-left: 220px;
+    gap: 20px;
+    display: flex;
+
+}
+
+.card{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    width: 300px;
+    height: auto;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    padding: 10px
+}
